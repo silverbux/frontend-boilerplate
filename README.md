@@ -1,4 +1,4 @@
-Front-end Boilerplate. 
+Front-end Boilerplate.
 =====================
 Reference and Credits
 https://github.com/newaeonweb/frontendboilerplate
@@ -13,10 +13,13 @@ All code here are based on lessons learned and good practices, however many of t
 
 #### Initialize
 ```
+git clone git@github.com:mcoy37/frontend-boilerplate.git
+
+```
+```
 npm install
 
 ```
-
 #### Get Started
 ```
 grunt
@@ -40,7 +43,7 @@ We propose a folder structure for web projects from the scratch, because all web
 		vendor/				--> third party libraries like: respond, mçodernizer
 	test					--> test source files and libraries
 		mocha				--> mocha folder structure for visual test results
-			css/			
+			css/
 				mocha.css
 			js/				--> testing frameworks file
 				chai.js
