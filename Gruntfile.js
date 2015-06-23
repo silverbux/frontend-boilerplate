@@ -14,7 +14,7 @@ module.exports = function (grunt) {
 		clientJS:   [config.dirName + '/js/*.js', config.dirName + '/js/vendor/*.js'],
 		clientSrc:  [config.srcName + '/scripts/*.js'],
 		clientCSS:  [config.dirName + '/css/**/*.css'],
-		clientPreprocessor: [config.srcName + '/preprocessor/*.less', config.srcName + '/preprocessor/*.scss', config.srcName + '/preprocessor/**/*.less',],
+		clientPreprocessor: [config.srcName + '/preprocessor/**/*.less', config.srcName + '/preprocessor/**/*.scss'],
 		clientHTML: ['/*.html'],
 		concatBase: [config.srcName + '/scripts/*js', 'src/vendor/*js' ]
 	};
