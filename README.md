@@ -17,7 +17,7 @@ git clone git@github.com:mcoy37/frontend-boilerplate.git
 
 ```
 ```
-npm install
+npm install && bower install
 
 ```
 #### Get Started
